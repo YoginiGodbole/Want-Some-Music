@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+body{
+    font-family: cursive;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+h6{
+    color: #D8D8D8;
+}
+span{
+    color: goldenrod;
+}
+#home button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: goldenrod;
+    color: black;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#home a{
+    color: black;
+    text-decoration: none;
+}
+#home button:hover{
+    background-color: gold;
+    transition: 0.3s ease;
+}
+#container{
+    position: fixed;
+    position: -webkit-sticky;
+
+}
+.navbar{
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-expand-lg .navbar-nav .nav-link :active,
+.navbar i.active {
+    color: black;
+    background-color: gold;
+    border-radius: 5px;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+#header span{
+    color: goldenrod;
+}
+#home{
+    background-image: url("main image.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+#home span{
+    color:goldenrod;
+}
+#home p{
+    /* font-weight: bold; */
+    font-family: Arial;
+}
+#home-data{
+    background-color: white;
+    width: fit-content;
+    align-items: left;
+    padding: 10px 10px;
+    padding-right: 10px;
+    /* border-top-right-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.3s ease;
+}
+#home-data:hover{
+    transition: 0.3s ease;
+}
+
+/* Additional Code */
+.Music-Gallery {
+    padding-left: 50px;
+}
+
+#content{
+    padding: 20px 15px;
+    align: center;
+    align-items: center;
+    align-items: center;
+}
+#content a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'IM Fell English', serif;
+    transition: 0.3s ease;
+    font-size: 65px ;
+}
+#content a:hover{
+    color: goldenrod;
+}
+#content span{
+    color: goldenrod;
+}
+
+#img-gall{
+    padding: 30px 20px;
+}
+    
+/* Music Gallery Image Effect */
+.image1{
+    position: relative;
+    width: 400px;
+}
+.image__img1 {
+    display: block;
+    width: 100%;
+}
+.image__overlay1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay1:hover{
+    opacity: 1;
+}
+.image__overlay--blur1{
+    backdrop-filter: blur(5px);
+}
+.image__overlay1 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__overlay1:hover{
+    transform: translateY(0);
+    cursor: pointer;
+}
+.image__title1{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.image__description1{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.image2{
+    position: relative;
+    width: 400px;
+}
+.image__img2 {
+    display: block;
+    width: 100%;
+}
+.image__overlay2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay2:hover{
+    opacity: 1;
+}
+.image__overlay--blur2{
+    backdrop-filter: blur(5px);
+}
+.image__overlay2 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__overlay2:hover{
+    transform: translateY(0);
+    cursor: pointer;
+}
+.image__title2{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.image__description2{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.image3{
+    position: relative;
+    width: 400px;
+}
+.image__img3 {
+    display: block;
+    width: 100%;
+}
+.image__overlay3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Quicksand',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay3:hover{
+    opacity: 1;
+}
+.image__overlay--blur3{
+    backdrop-filter: blur(5px);
+}
+.image__overlay3 > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image__overlay3:hover{
+    transform: translateY(0);
+    cursor: pointer;
+}
+.image__title3{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+.image__description3{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+#about span{
+    color: goldenrod;
+}
+#about p{
+    justify-content: center;
+    /* padding: 40px 170px; */
+    color: aliceblue;
+    padding-top: 20px;
+}
+#about{
+    padding: 20px;
+    background-color: black;
+    background-size: 100%;
+    color: aliceblue;
+}
+
+#people{
+    padding: 20px 20px;
+}
+#people img {
+    border: black 2px solid;
+}
+#people p {
+    text-align: justify;
+}
+#box{
+    display: flex;
+    background-color: rgba(218, 165, 32, 0.521);
+    background-size: 100%;
+    padding: 20px 20px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+#box img{
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+#box p{
+    justify-content: flex-start;
+    padding-right: 10px;
+}
+#box span{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#form{
+    padding: 20px 20px;
+}
+
+#form button{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#form a{
+    color: black;
+    text-decoration: none;
+}
+#form button:hover{
+    background-color: gold;
+    transition: 0.3s ease;
+}
+
+#footer{
+    background-color: rgba(222, 184, 135, 0.363);
+    color: black;
+    background-size: 100%;
+}
+
